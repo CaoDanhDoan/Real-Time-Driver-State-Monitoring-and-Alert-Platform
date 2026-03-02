@@ -1,0 +1,20 @@
+# ===== Backend =====
+dms_backend/venv/
+dms_backend/__pycache__/
+dms_backend/*.sqlite3
+dms_backend/.env
+dms_backend/.env.*
+
+# ===== Frontend =====
+dms_frontend/**/node_modules/
+dms_frontend/**/build/
+dms_frontend/**/.env
+dms_frontend/**/.env.*
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== System =====
+.DS_Store
+Thumbs.db
