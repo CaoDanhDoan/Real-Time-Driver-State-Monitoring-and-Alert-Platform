@@ -114,21 +114,21 @@ Các thông số sau được backend trả về qua API và tự động đồn
 - Bật/tắt còi
 - Các tham số khác
  
-🧩 Công Nghệ Sử Dụng
-Video Streaming: RTSP, OpenCV
-AI Model: YOLO
-Optimization: TensorFlow Lite (Quantization / Pruning)
-Backend: FastAPI + MongoDB
-Frontend: ReactJS
-IoT / Alert: ESP32, WebSocket (tuỳ chọn)
+## 🧩 Công Nghệ Sử Dụng
+- Video Streaming: RTSP, OpenCV
+- AI Model: YOLO
+- Optimization: TensorFlow Lite (Quantization / Pruning)
+- Backend: FastAPI + MongoDB
+- Frontend: ReactJS
+- IoT: Raspberry Pi 3B, ESP32, WebSocket 
 
-📊 Ứng Dụng Thực Tế
+## 📊 Ứng Dụng Thực Tế
 Hệ thống giám sát tài xế xe tải
 Giám sát tài xế taxi / xe công nghệ
 Nghiên cứu hành vi người lái
 Hệ thống an toàn giao thông thông minh
 
-📜 License
+## 📜 License
 Dự án phục vụ mục đích học tập và nghiên cứu.
 Vui lòng liên hệ tác giả trước khi:
 Sử dụng cho mục đích thương mại
