@@ -66,19 +66,21 @@ Phù hợp cho:
 - Gửi khung hình lên backend để theo dõi trực tiếp
 - 
 # 🏗 Kiến Trúc Hệ Thống
+```mermaid
 flowchart TD
     A[Camera (Raspberry Pi / IP Camera)]
-    B[PC chạy AI<br/>YOLO + TensorFlow Lite]
-    C[Backend<br/>API + Database]
-    D[Web Dashboard<br/>(Live Monitor)]
-    E[Lịch sử cảnh báo<br/>(Database)]
-    F[ESP32 / Còi / Thiết bị ngoại vi]
+    B[PC chạy AI - YOLO TFLite]
+    C[Backend API + Database]
+    D[Web Dashboard]
+    E[Lịch sử cảnh báo]
+    F[ESP32 / Còi]
 
-    A -- RTSP --> B
-    B -- REST API (HTTP) --> C
+    A -->|RTSP| B
+    B -->|REST API| C
     C --> D
     C --> E
     C --> F
+```
 ### Luồng dữ liệu
 
 1. Camera phát RTSP → PC nhận luồng
