@@ -68,12 +68,12 @@ Phù hợp cho:
 # 🏗 Kiến Trúc Hệ Thống
 ```mermaid
 flowchart TD
-    A[Camera (Raspberry Pi / IP Camera)]
-    B[PC chạy AI - YOLO TFLite]
-    C[Backend API + Database]
-    D[Web Dashboard]
-    E[Lịch sử cảnh báo]
-    F[ESP32 / Còi]
+    A["Camera - Raspberry Pi / IP Camera"]
+    B["PC chạy AI - YOLO + TensorFlow Lite"]
+    C["Backend - API + Database"]
+    D["Web Dashboard (Live Monitor)"]
+    E["Lịch sử cảnh báo"]
+    F["ESP32 / Còi / Thiết bị ngoại vi"]
 
     A -->|RTSP| B
     B -->|REST API| C
