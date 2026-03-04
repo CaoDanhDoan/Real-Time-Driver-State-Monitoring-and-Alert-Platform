@@ -123,14 +123,10 @@ Các thông số sau được backend trả về qua API và tự động đồn
 - IoT: Raspberry Pi 3B, ESP32, WebSocket 
 
 ## 📊 Ứng Dụng Thực Tế
-Hệ thống giám sát tài xế xe tải
-Giám sát tài xế taxi / xe công nghệ
-Nghiên cứu hành vi người lái
-Hệ thống an toàn giao thông thông minh
+- Hệ thống giám sát tài xế xe tải
+- Giám sát tài xế taxi / xe công nghệ
+- Nghiên cứu hành vi người lái
+- Hệ thống an toàn giao thông thông minh
 
 ## 📜 License
-Dự án phục vụ mục đích học tập và nghiên cứu.
-Vui lòng liên hệ tác giả trước khi:
-Sử dụng cho mục đích thương mại
-Triển khai sản phẩm thực tế
-Phát hành lại mã nguồn
+- Dự án phục vụ mục đích học tập và nghiên cứu.
