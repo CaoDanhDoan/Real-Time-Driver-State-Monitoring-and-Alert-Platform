@@ -66,19 +66,19 @@ Phù hợp cho:
 - Gửi khung hình lên backend để theo dõi trực tiếp
 - 
 # 🏗 Kiến Trúc Hệ Thống
-Camera (Raspberry Pi / IP Camera)
-        │
-        │  RTSP Stream
-        ▼
-PC chạy AI (YOLO + TensorFlow Lite)
-        │
-        │  REST API (HTTP)
-        ▼
-Backend (API + Database)
-        │
-        ├── Web Dashboard (Live Monitor)
-        ├── Lịch sử cảnh báo (Database)
-        └── ESP32 / Còi / Thiết bị ngoại vi
+flowchart TD
+    A[Camera (Raspberry Pi / IP Camera)]
+    B[PC chạy AI<br/>YOLO + TensorFlow Lite]
+    C[Backend<br/>API + Database]
+    D[Web Dashboard<br/>(Live Monitor)]
+    E[Lịch sử cảnh báo<br/>(Database)]
+    F[ESP32 / Còi / Thiết bị ngoại vi]
+
+    A -- RTSP --> B
+    B -- REST API (HTTP) --> C
+    C --> D
+    C --> E
+    C --> F
 ### Luồng dữ liệu
 
 1. Camera phát RTSP → PC nhận luồng
